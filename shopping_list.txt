@@ -1,5 +1,5 @@
-bread
-milk
-sugar
-coffee
-eggs
+bread x2
+milk x2
+sugar x2
+coffee x2
+eggs x2
