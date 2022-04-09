@@ -2,4 +2,4 @@ bread x2
 milk x1
 sugar x2
 coffee x2
-eggs x2
+eggs x5
