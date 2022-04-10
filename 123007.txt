@@ -1,0 +1,28 @@
+1. Да се додаде фајлот shopping_list.txt ја користев командата git add shopping_list.txt
+2. Со помош на командата git status го даде фајлот дека е за комитирање
+3. Со помош на командата git add shopping_list.txt и git commit -m "Add 5 items to the shopping list" ги комитирав промените
+4. Увидов дека погрешка фајлот што сум го комитирала е празен, тогаш го изменив и повторно со командата git add shopping_list.txt го додадов изменетиот фајлот
+5. Оттука со командата git add shopping_list.txt и git commit -m "Add 5 items to shopping list" ги комитирав промените.
+6. Повторно го изменив фајлот сега додадов количина на ставките x2 и со следните команди ја завршив задачата git add shopping_list.txt и git commit -m "Add quantities to the items"
+7. git push да се синхронизира локалниот репозиториум со оддалечениот
+8. со командите git branch branch1 и git branch branch2, креираме два нови гранки
+9. Со командата git push origin branch1 и git push origin branch 2 се синхронизира локалниот репозиториум со оддалечениот
+10. Со командата git checkout branch1 се префрлив на гранката branch1
+11. На гранката branch1 го сменив фајлот на последната ставка во шопинг листата
+12. Со командата git add shopping_list.txt и потоа git commit -m "Change quantity of item #5" за да ја комитирам промената
+13. Со командата git push origin branch1 ја синхронизирав промената
+14. Со командата git checkout master се вратив на гранката master
+15. Во текст фајлот го сменив бројот на втората ставка
+16. Со командата git add shopping_list.txt и потоа git commit -m "Change quantity of item #2" ја комитирав промената
+17. Со командата git push ја синхронизирав промената
+18. Со командата git checkout branch2 се префрлив на гранката branch2
+19. Во текст фајлот го променив името на четвртата ставка
+19. Со командата git add shopping_list.txt и потоа командата git commit -m "Modify item #4" ја комитирав промената
+20. Во текст фајлот додадов и шеста ставка
+21. Со командата git add shopping_list.txt и потоа командата git commit amend -m "Modify item #4 and add item #6" со која што се презапиша последниот комит
+22. Со командата git push origin branch2 ги синхронизирав промените
+23. Со командата git checkout master се вратив на master гранката
+24. Со командата git merge branch1 ја споив гранката branch1 во master гранката со стратегијата ort и не се случи никаков конфликт се смени само бројот на петата ставка на мастер гранката
+односно ги имаше промените споени од гранката branch1, но не се смени ставката со број 2, затоа го направив рачно.
+25. Оттука, со командата git merge branch2 ја извршив да ја спојам гранката branch2 во master гранката, но се појави конфликт.
+26. Решив конфликтот да го решам рачно го изменив фајлот. Ја комитирав и споив гранката со master.
