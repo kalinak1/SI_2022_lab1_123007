@@ -1,5 +1,6 @@
 bread x2
-milk x1
+milk x2
 sugar x2
 coffee x2
-eggs x5
+oil x2
+pop corn x2
